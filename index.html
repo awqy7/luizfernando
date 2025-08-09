@@ -12,9 +12,9 @@
         rel="stylesheet">
     <style>
         :root {
-            --primary-burgundy: #8B1538;
+            --primary-burgundy: #D4AF37; /* agora gold */
             --primary-gold: #D4AF37;
-            --secondary-burgundy: #6B1025;
+            --secondary-burgundy: #D4AF37;
             --light-gold: #F4E4A6;
         }
 
@@ -28,7 +28,7 @@
         }
 
         .bg-burgundy {
-            background-color: var(--primary-burgundy);
+            background-color: var(--primary-gold);
         }
 
         .bg-gold {
@@ -36,7 +36,7 @@
         }
 
         .text-burgundy {
-            color: var(--primary-burgundy);
+            color: var(--primary-gold);
         }
 
         .text-gold {
@@ -53,7 +53,7 @@
         }
 
         .gradient-bg {
-            background: linear-gradient(135deg, var(--primary-burgundy), var(--secondary-burgundy));
+            background: linear-gradient(135deg, var(--primary-gold), var(--primary-gold));
         }
 
         .card-hover {
@@ -154,10 +154,7 @@
                 display: none;
             }
 
-            * {
-                -webkit-print-color-adjust: exact !important;
-                color-adjust: exact !important;
-            }
+            
         }
 
         /* Media query para celular: hero section botões vertical e espaçamento menor */
@@ -215,11 +212,11 @@
             </div>
 
             <ul class="hidden md:flex space-x-8">
-                <li><a href="#inicio" class="text-gray-700 hover:text-burgundy transition">Início</a></li>
-                <li><a href="#sobre" class="text-gray-700 hover:text-burgundy transition">Sobre Mim</a></li>
-                <li><a href="#atendimento" class="text-gray-700 hover:text-burgundy transition">Atendimento</a></li>
-                <li><a href="#contratos" class="text-gray-700 hover:text-burgundy transition">Contratos</a></li>
-                <li><a href="#contato" class="text-gray-700 hover:text-burgundy transition">Contato</a></li>
+                <li><a href="#inicio" class="text-gray-700 hover:text-gold transition">Início</a></li>
+                <li><a href="#sobre" class="text-gray-700 hover:text-gold transition">Sobre Mim</a></li>
+                <li><a href="#atendimento" class="text-gray-700 hover:text-gold transition">Atendimento</a></li>
+                <li><a href="#contratos" class="text-gray-700 hover:text-gold transition">Contratos</a></li>
+                <li><a href="#contato" class="text-gray-700 hover:text-gold transition">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -260,7 +257,7 @@
     <section id="sobre" class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center">
-                <h2 class="font-serif text-4xl font-bold text-burgundy mb-8">Sobre Mim</h2>
+                <h2 class="font-serif text-4xl font-bold text-gold mb-8">Sobre Mim</h2>
                 <p class="text-xl text-black leading-relaxed mb-8">
                     Acredito que todos merecem acesso a soluções jurídicas claras e eficazes. Atuo tanto em demandas
                     simples quanto em casos mais complexos, sempre com transparência, estratégia e foco na melhor
@@ -273,10 +270,10 @@
     <!-- Como Trabalhamos -->
     <section id="atendimento" class="py-16 bg-gray-100">
         <div class="container mx-auto px-4">
-            <h2 class="font-serif text-4xl font-bold text-burgundy text-center mb-12">Como Trabalhamos</h2>
+            <h2 class="font-serif text-4xl font-bold text-gold text-center mb-12">Como Trabalhamos</h2>
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="bg-white p-8 rounded-xl shadow-lg card-hover text-center">
-                    <div class="w-20 h-20 bg-burgundy rounded-full flex items-center justify-center mx-auto mb-6">
+                    <div class="w-20 h-20 bg-gold rounded-full flex items-center justify-center mx-auto mb-6">
                         <i class="fas fa-file-contract text-black text-3xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-black mb-4">Venda de Contratos Online</h3>
@@ -284,7 +281,7 @@
                 </div>
 
                 <div class="bg-white p-8 rounded-xl shadow-lg card-hover text-center">
-                    <div class="w-20 h-20 bg-burgundy rounded-full flex items-center justify-center mx-auto mb-6">
+                    <div class="w-20 h-20 bg-gold rounded-full flex items-center justify-center mx-auto mb-6">
                         <i class="fas fa-handshake text-black text-3xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-black mb-4">Atendimento Pessoal e Rápido</h3>
@@ -292,7 +289,7 @@
                 </div>
 
                 <div class="bg-white p-8 rounded-xl shadow-lg card-hover text-center">
-                    <div class="w-20 h-20 bg-burgundy rounded-full flex items-center justify-center mx-auto mb-6">
+                    <div class="w-20 h-20 bg-gold rounded-full flex items-center justify-center mx-auto mb-6">
                         <i class="fas fa-shield-alt text-black text-3xl"></i>
                     </div>
                     <h3 class="text-xl font-bold text-black mb-4">Defesa em Direito Público</h3>
@@ -305,29 +302,29 @@
     <!-- Especialização -->
     <section id="especializacoes" class="py-16 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="font-serif text-4xl font-bold text-burgundy text-center mb-12">Portfólio de Especialização</h2>
+            <h2 class="font-serif text-4xl font-bold text-gold text-center mb-12">Portfólio de Especialização</h2>
             <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
                 <div class="text-center card-hover p-6">
                     <div class="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-heartbeat text-burgundy text-4xl"></i>
+                        <i class="fas fa-heartbeat text-gold text-4xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-burgundy mb-2">Saúde Pública</h3>
+                    <h3 class="text-xl font-bold text-gold mb-2">Saúde Pública</h3>
                     <p class="text-black">Direitos relacionados à saúde pública e medicina</p>
                 </div>
 
                 <div class="text-center card-hover p-6">
                     <div class="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-users text-burgundy text-4xl"></i>
+                        <i class="fas fa-users text-gold text-4xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-burgundy mb-2">Defesa de Servidores</h3>
+                    <h3 class="text-xl font-bold text-gold mb-2">Defesa de Servidores</h3>
                     <p class="text-black">Proteção dos direitos dos servidores públicos</p>
                 </div>
 
                 <div class="text-center card-hover p-6">
                     <div class="w-24 h-24 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-clipboard-list text-burgundy text-4xl"></i>
+                        <i class="fas fa-clipboard-list text-gold text-4xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-burgundy mb-2">Processos Administrativos</h3>
+                    <h3 class="text-xl font-bold text-gold mb-2">Processos Administrativos</h3>
                     <p class="text-black">Gestão e defesa em processos administrativos</p>
                 </div>
             </div>
@@ -337,116 +334,113 @@
     <!-- Galeria de Contratos -->
     <section id="contratos" class="py-16 bg-gray-100">
         <div class="container mx-auto px-4">
-            <h2 class="font-serif text-4xl font-bold text-burgundy text-center mb-4">Galeria de Contratos</h2>
+            <h2 class="font-serif text-4xl font-bold text-gold text-center mb-4">Galeria de Contratos</h2>
             <p class="text-center text-gray-600 mb-12">Modelos legalizados prontos para uso</p>
 
-            <div class="mb-8 text-center">
-                <input type="text" placeholder="Buscar contrato..."
-                    class="px-4 py-2 border border-gray-300 rounded-lg w-full max-w-md">
-            </div>
+            
 
             <div class="contract-grid">
                 <!-- Contratos de 1 a 40 -->
                 <div class="bg-white p-6 rounded-xl shadow-lg card-hover">
-                    <h3 class="font-bold text-black mb-2">Contrato de Prestação de Serviços</h3>
+                    <h3 class="font-bold text-black mb-2">Acordo de Confidencialidade</h3>
                     <div class="mb-4">
                         <span class="price-old">R$ 89,90</span>
                         <span class="price-new ml-2 text-gold font-bold">R$ 9,90</span>
                     </div>
-                    <button class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold">
-                        <i class="fas fa-shopping-cart mr-2"></i>Comprar com Segurança
-                    </button>
+                    <a href="https://go.hotmart.com/G100707111U" target="_blank" rel="noopener noreferrer" class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold flex items-center justify-center no-underline">
+                        <i class="fas fa-shopping-cart mr-2"></i>Comprar 
+                    </a>
                 </div>
 
                 <div class="bg-white p-6 rounded-xl shadow-lg card-hover">
-                    <h3 class="font-bold text-black mb-2">Contrato de Locação Residencial</h3>
+                    <h3 class="font-bold text-black mb-2">Acordo de Divórcio Extrajudicial - com Bens a Dividir</h3>
                     <div class="mb-4">
                         <span class="price-old">R$ 79,90</span>
                         <span class="price-new ml-2 text-gold font-bold">R$ 9,90</span>
                     </div>
-                    <button class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold">
-                        <i class="fas fa-shopping-cart mr-2"></i>Comprar com Segurança
-                    </button>
+                    <a href="https://go.hotmart.com/M100695016T" target="_blank" rel="noopener noreferrer" class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold flex items-center justify-center no-underline">
+                        <i class="fas fa-shopping-cart mr-2"></i>Comprar 
+                    </a>
                 </div>
 
                 <div class="bg-white p-6 rounded-xl shadow-lg card-hover">
-                    <h3 class="font-bold text-black mb-2">Contrato de Compra e Venda</h3>
+                    <h3 class="font-bold text-black mb-2">Acordo de Guarda Compartilhada</h3>
                     <div class="mb-4">
                         <span class="price-old">R$ 99,90</span>
                         <span class="price-new ml-2 text-gold font-bold">R$ 9,90</span>
                     </div>
-                    <button class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold">
-                        <i class="fas fa-shopping-cart mr-2"></i>Comprar com Segurança
-                    </button>
+                    <a href="https://go.hotmart.com/J100695449B" target="_blank" rel="noopener noreferrer" class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold flex items-center justify-center no-underline">
+                        <i class="fas fa-shopping-cart mr-2"></i>Comprar 
+                    </a>
                 </div>
 
                 <div class="bg-white p-6 rounded-xl shadow-lg card-hover">
-                    <h3 class="font-bold text-black mb-2">Contrato de Trabalho</h3>
+                    <h3 class="font-bold text-black mb-2">Contrato de Compra e Venda de Imóvel</h3>
                     <div class="mb-4">
                         <span class="price-old">R$ 69,90</span>
                         <span class="price-new ml-2 text-gold font-bold">R$ 9,90</span>
                     </div>
-                    <button class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold">
-                        <i class="fas fa-shopping-cart mr-2"></i>Comprar com Segurança
-                    </button>
+                    <a href="https://go.hotmart.com/K100691864R" target="_blank" rel="noopener noreferrer" class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold flex items-center justify-center no-underline">
+                        <i class="fas fa-shopping-cart mr-2"></i>Comprar 
+                    </a>
                 </div>
 
                 <!-- Continue com mais 36 contratos similares -->
                 <div class="bg-white p-6 rounded-xl shadow-lg card-hover">
-                    <h3 class="font-bold text-black mb-2">Contrato de Parceria</h3>
+                    <h3 class="font-bold text-black mb-2">Acordo Entre Sócios Quotistas</h3>
                     <div class="mb-4">
                         <span class="price-old">R$ 89,90</span>
                         <span class="price-new ml-2 text-gold font-bold">R$ 9,90</span>
                     </div>
-                    <button class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold">
-                        <i class="fas fa-shopping-cart mr-2"></i>Comprar com Segurança
-                    </button>
+                    <a href="https://go.hotmart.com/Y100707127T" target="_blank" rel="noopener noreferrer" class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold flex items-center justify-center no-underline">
+                        <i class="fas fa-shopping-cart mr-2"></i>Comprar 
+                    </a>
                 </div>
 
                 <div class="bg-white p-6 rounded-xl shadow-lg card-hover">
-                    <h3 class="font-bold text-black mb-2">Contrato de Consultoria</h3>
+                    <h3 class="font-bold text-black mb-2">Contrato de Compra e Venda de Veículos</h3>
                     <div class="mb-4">
                         <span class="price-old">R$ 79,90</span>
                         <span class="price-new ml-2 text-gold font-bold">R$ 9,90</span>
                     </div>
-                    <button class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold">
-                        <i class="fas fa-shopping-cart mr-2"></i>Comprar com Segurança
-                    </button>
+                     <a href="https://go.hotmart.com/D100693084V" target="_blank" rel="noopener noreferrer" class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold flex items-center justify-center no-underline">
+                        <i class="fas fa-shopping-cart mr-2"></i>Comprar 
+                    </a>
                 </div>
 
                 <div class="bg-white p-6 rounded-xl shadow-lg card-hover">
-                    <h3 class="font-bold text-black mb-2">Contrato de Franquia</h3>
+                    <h3 class="font-bold text-black mb-2">Contrato de Locação de Residencial Completo</h3>
                     <div class="mb-4">
                         <span class="price-old">R$ 149,90</span>
                         <span class="price-new ml-2 text-gold font-bold">R$ 9,90</span>
                     </div>
-                    <button class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold">
-                        <i class="fas fa-shopping-cart mr-2"></i>Comprar com Segurança
-                    </button>
+                     <a href="https://go.hotmart.com/C100694230N" target="_blank" rel="noopener noreferrer" class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold flex items-center justify-center no-underline">
+                        <i class="fas fa-shopping-cart mr-2"></i>Comprar 
+                    </a>
                 </div>
 
                 <div class="bg-white p-6 rounded-xl shadow-lg card-hover">
-                    <h3 class="font-bold text-black mb-2">Contrato de Licenciamento</h3>
+                    <h3 class="font-bold text-black mb-2">Contrato de Prestação de Serviços Técnicos Profissionais</h3>
                     <div class="mb-4">
                         <span class="price-old">R$ 119,90</span>
                         <span class="price-new ml-2 text-gold font-bold">R$ 9,90</span>
                     </div>
-                    <button class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold">
-                        <i class="fas fa-shopping-cart mr-2"></i>Comprar com Segurança
-                    </button>
+                     <a href="https://go.hotmart.com/R100694875J" target="_blank" rel="noopener noreferrer" class="bg-gold text-black px-6 py-2 rounded-lg hover:bg-yellow-400 transition w-full font-bold flex items-center justify-center no-underline">
+                        <i class="fas fa-shopping-cart mr-2"></i>Comprar 
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Depoimentos -->
-    <section id="depoimentos" class="py-16 bg-burgundy text-white">
+    <section id="depoimentos" class="py-16 bg-gold text-white">
         <div class="container mx-auto px-4">
-            <h2 class="font-serif text-4xl font-bold text-center mb-12">Depoimentos e Avaliações</h2>
+            <h2 class="font-serif text-4xl font-bold text-center mb-12 text-white">Depoimentos e Avaliações</h2>
             <div class="slider-container">
                 <div class="slider-track">
                     <div class="flex space-x-8">
-                        <div class="bg-white text-burgundy p-6 rounded-xl min-w-80 mx-4 depoimento-card">
+                        <div class="bg-white text-black p-6 rounded-xl min-w-80 mx-4 depoimento-card">
                             <div class="flex mb-4">
                                 <i class="fas fa-star text-gold"></i>
                                 <i class="fas fa-star text-gold"></i>
@@ -459,7 +453,7 @@
                             <p class="font-bold">Maria Silva</p>
                         </div>
 
-                        <div class="bg-white text-burgundy p-6 rounded-xl min-w-80 mx-4 depoimento-card">
+                        <div class="bg-white text-black p-6 rounded-xl min-w-80 mx-4 depoimento-card">
                             <div class="flex mb-4">
                                 <i class="fas fa-star text-gold"></i>
                                 <i class="fas fa-star text-gold"></i>
@@ -471,7 +465,7 @@
                             <p class="font-bold">João Santos</p>
                         </div>
 
-                        <div class="bg-white text-burgundy p-6 rounded-xl min-w-80 mx-4 depoimento-card">
+                        <div class="bg-white text-black p-6 rounded-xl min-w-80 mx-4 depoimento-card">
                             <div class="flex mb-4">
                                 <i class="fas fa-star text-gold"></i>
                                 <i class="fas fa-star text-gold"></i>
@@ -484,7 +478,7 @@
                         </div>
 
                         <!-- Repetir depoimentos para efeito de carrossel infinito -->
-                        <div class="bg-white text-burgundy p-6 rounded-xl min-w-80 mx-4 depoimento-card">
+                        <div class="bg-white text-black p-6 rounded-xl min-w-80 mx-4 depoimento-card">
                             <div class="flex mb-4">
                                 <i class="fas fa-star text-gold"></i>
                                 <i class="fas fa-star text-gold"></i>
@@ -510,11 +504,11 @@
             <div class="grid md:grid-cols-3 gap-8">
                 <div>
                     <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-burgundy rounded-full flex items-center justify-center mr-3">
-                            <i class="fas fa-balance-scale text-gold text-xl"></i>
+                        <div class="w-12 h-12 rounded-full flex items-center justify-center mr-3 overflow-hidden">
+                            <img src="logo.jpeg" alt="Logo" class="w-full h-full object-cover rounded-full">
                         </div>
                         <div>
-                            <h3 class="font-serif text-xl font-bold">L.F. Dias</h3>
+                            <h3 class="font-serif text-xl font-bold">Luiz Fernando Dias</h3>
                             <p class="text-sm text-gray-400">Advocacia Especializada</p>
                         </div>
                     </div>
@@ -537,35 +531,33 @@
                     <h4 class="font-bold mb-4">Contato</h4>
                     <div class="space-y-2">
                         <p class="text-gray-400"><i class="fas fa-phone mr-2"></i>(33) 9 8840-1459</p>
-                        <p class="text-gray-400"><i class="fas fa-envelope mr-2"></i>contato@lfdias.com.br</p>
+                        <p class="text-gray-400"><i class="fas fa-envelope mr-2"></i>ludias.advogado@gmail.com</p>
                         <div class="flex space-x-4 mt-4">
-                            <a href="#" class="text-gray-400 hover:text-gold transition"><i
-                                    class="fab fa-facebook text-2xl"></i></a>
-                            <a href="#" class="text-gray-400 hover:text-gold transition"><i
+                           
+                            <a href="https://www.instagram.com/ludiasadv/" class="text-gray-400 hover:text-gold transition"><i
                                     class="fab fa-instagram text-2xl"></i></a>
-                            <a href="#" class="text-gray-400 hover:text-gold transition"><i
-                                    class="fab fa-linkedin text-2xl"></i></a>
+                            
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="border-t border-gray-800 mt-8 pt-8 text-center">
-                <p class="text-gray-400">&copy; 2024 Luiz Fernando Dias Advocacia Especializada. Todos os direitos
-                    reservados.</p>
+                <p class="text-gray-400">&copy; 2025 Luiz Fernando Dias. Todos os direitos
+                    reservados. Desenvolvido por @awqyq</p>
             </div>
         </div>
     </footer>
 
     <!-- Botão Flutuante WhatsApp -->
-    <a href="https://wa.me/5511999999999" target="_blank" class="floating-whatsapp">
+    <a href="https://wa.me/5533988401459" target="_blank" class="floating-whatsapp">
         <i class="fab fa-whatsapp text-white text-2xl"></i>
     </a>
 
     <!-- Lightbox -->
     <div id="lightbox" class="lightbox" onclick="closeLightbox()">
         <div class="bg-white p-8 rounded-lg max-w-2xl max-h-96 flex items-center justify-center">
-            <i class="fas fa-image text-6xl text-burgundy"></i>
+            <i class="fas fa-image text-6xl text-gold"></i>
         </div>
     </div>
 
